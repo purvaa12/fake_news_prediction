@@ -1,10 +1,10 @@
-- 👋 Hi, I’m @purvaa12
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+train.csv: A full training dataset with the following attributes:
 
-<!---
-purvaa12/purvaa12 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+id: unique id for a news article
+title: the title of a news article
+author: author of the news article
+text: the text of the article; could be incomplete
+label: a label that marks the article as potentially unreliable
+1: unreliable
+0: reliable
+test.csv: A testing training dataset with all the same attributes at train.csv without the label.
